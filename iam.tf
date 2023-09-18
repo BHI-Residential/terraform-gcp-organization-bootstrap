@@ -21,7 +21,7 @@ resource "google_organization_iam_binding" "admin_binding" {
 
 resource "google_organization_iam_binding" "billing_account_binding" {
   org_id = var.org_id
-  role   = "roles/servicemanagement.quotaAdmin"
+  role   = "roles/billing.viewer"
 
 
   members = ["user:sentral.taskservice@qburst.com"]

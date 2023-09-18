@@ -43,7 +43,6 @@ variable "active_googleapis" {
     "cloudkms.googleapis.com",
     "cloudresourcemanager.googleapis.com",
     "containerregistry.googleapis.com",
-    "artifactregistry.googleapis.com",
     "iam.googleapis.com",
     "iamcredentials.googleapis.com",
     "logging.googleapis.com",

@@ -19,3 +19,10 @@ resource "google_organization_iam_binding" "admin_binding" {
   ]
 }
 
+resource "google_organization_iam_binding" "billing_account_binding" {
+  org_id = var.org_id
+  role   = "roles/servicemanagement.quotaAdmin"
+
+
+  members = ["user:sentral.taskservice@qburst.com"]
+}

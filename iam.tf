@@ -24,5 +24,5 @@ resource "google_organization_iam_binding" "billing_account_binding" {
   role   = "roles/billing.viewer"
 
 
-  members = ["user:sentral.taskservice@qburst.com"]
+  members = ["group:sentral.taskservice@qburst.com"]
 }
